@@ -1,12 +1,19 @@
 body {background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);}
-#main_wrap {max-width: 1200px; min-height: 1000px; background-color: #fff; margin: 40px auto; padding: 60px 20px}
+#main_wrap {width: 1200px; min-height: 1000px; background-color: #fff; margin: 40px auto; padding:20px}
 #main_wrap header {overflow: hidden;}
-#main_wrap h1 {float: left; font-size: 20px; width: 7%;}
-#main_wrap h1 i {font-size: 50px; color: pink; padding-left: 32px;}
-#main_wrap form {float: right; width: 93%; text-align: center;}
-#main_wrap form input {display: inline-block; width: 600px; height: 60px; background-color: #fff; border: 2px solid #333; font-size: 20px;}
-#main_wrap form button {display: inline-block; height: 60px;}
+#main_wrap h1 {font-size: 20px; width: 100%; margin:10px auto; }
+#main_wrap h1 i {display: block; font-size: 50px; color: pink; text-align: center;}
+#main_wrap h1 p {display: inline-block; font-size: 20px;}
+#main_wrap form {width: 500px; margin: 0 auto;}
+#main_wrap form input {display: inline-block; width: 400px; height: 45px; background-color: #fff; border: 2px solid #333; font-size: 16px;}
+#main_wrap form button {display: inline-block; height: 45px;}
 
-#contents {overflow: hidden; margin-top: 60px;}
-#contents .recipeList {float: left; width: 28%; height: 500px; background-color: #ddd;}
+#contents {overflow: hidden; margin-top: 50px;}
+#contents .recipeList {float: left; width: 28%;}
+#contents .recipeList ul {padding: 8px;}
+#contents .recipeList .recipeItem {overflow: hidden; padding: 10px 0; border-bottom: 1px solid #ccc; cursor: pointer;}
+#contents .recipeList .recipeItem img {float: left; width: 75px; height: 75px; border-radius: 45px;}
+#contents .recipeList .recipeItem .recipeInfo {float: left; margin-left: 10px}
+#contents .recipeList .listBtn{ margin-top: 30px; text-align: center;}
+
 #contents .recipe { float: right; width: 70%; height: 500px; background-color: #ccc;}
