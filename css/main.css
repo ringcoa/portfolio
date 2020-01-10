@@ -3,7 +3,7 @@ body {background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 
 #main_wrap header {overflow: hidden;}
 #main_wrap h1 {font-size: 20px; width: 100%; margin:10px auto; }
 #main_wrap h1 i {display: block; font-size: 50px; color: pink; text-align: center;}
-#main_wrap h1 p {display: inline-block; font-size: 20px;}
+#main_wrap h1 span {font-size: 20px;}
 #main_wrap form {width: 500px; margin: 0 auto;}
 #main_wrap form input {display: inline-block; width: 400px; height: 45px; background-color: #fff; border: 2px solid #333; font-size: 16px;}
 #main_wrap form button {display: inline-block; height: 45px;}
@@ -16,4 +16,11 @@ body {background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 
 #contents .recipeList .recipeItem .recipeInfo {float: left; margin-left: 10px}
 #contents .recipeList .listBtn{ margin-top: 30px; text-align: center;}
 
-#contents .recipe { float: right; width: 70%; height: 500px; background-color: #ccc;}
+#contents .recipe { float: right; width: 71%; padding-left: 15px; border-left: 1px solid #e8e8e8;}
+#contents .recipe .img_area{width: 100%; height: 450px; background-color: #dedede;}
+#contents .recipe .img_area img{width: 100%; height: 100%; opacity: 90%;}
+#contents .recipe .recipeData {position: relative;height: 400px;}
+#contents .recipe .recipeData .recipe_title {position: absolute; top: -60px; left: 50%; margin-left: -300px; width: 600px; height: 100px;background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); text-align: center; transform: skewx(10deg)}
+#contents .recipe .recipeData .recipe_title p { line-height: 50px; font-size: 25px; font-weight: bold; color: #fff ;}
+#contents .recipe .recipeData .ingredient {width: 700px; height: 400px; background-color: fff; border: 1px solid #e8e8e8; margin: 10px auto 0; padding-top: 60px;}
+#contents .recipe .recipeData .ingredient li {display: inline-block; width: 32%; height: 40px; line-height: 40px; text-align: center;}
