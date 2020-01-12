@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "포트폴리오 자료를 올려 놓는 레포지토리입니다.\r 레시피 검색 앱은 만들 고있습니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringcoa/portfolio.git"
+  },
+  "author": "이주이",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ringcoa/portfolio/issues"
+  },
+  "homepage": "https://github.com/ringcoa/portfolio#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  }
+}
